@@ -86,15 +86,14 @@ section.about-me{
     padding-bottom: 0px;
 }
 
-
-
-.content{
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 6px;
+section.diplomes{
+    border: 1px solid white; 
+    padding: 5px;
+    margin: 20px;
+    padding-bottom: 0px;
 }
 
-section.diplomes{
+section.projects{
     border: 1px solid white; 
     padding: 5px;
     margin: 20px;
@@ -107,6 +106,15 @@ section.experiences{
     margin: 20px;
     padding-bottom: 0px;
 }
+
+
+.content{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+
 
 .timeline{
     position: relative;
@@ -190,4 +198,11 @@ p.emplacement{
 h2.certification{
     letter-spacing: 2px;
 
+}
+
+.projet{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
 }
