@@ -33,3 +33,53 @@ img.bot-discord-image {
     height: auto;
     margin-bottom: 10px;
 }
+
+img.c_logo {
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    left: 10px;
+}
+
+img.html_logo {
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    left: 10px;
+}
+
+img.java_logo {
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    left: 10px;
+}
+
+img.php_logo {
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    left: 10px;
+}
+
+img.kotlin_logo {
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    left: 10px;
+}
