@@ -173,3 +173,11 @@ h2.certification{
     border-radius: 6px;
     margin-bottom: 20px;
 }
+
+.skill_programming_languages{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 6px;
+}
