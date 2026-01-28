@@ -34,7 +34,7 @@ img.bot-discord-image {
     margin-bottom: 10px;
 }
 
-img.c_logo {
+img.programming_languages_logo{
     position: relative;
     background-color: white;
     border-radius: 15px;
@@ -44,37 +44,7 @@ img.c_logo {
     left: 10px;
 }
 
-img.html_logo {
-    position: relative;
-    background-color: white;
-    border-radius: 15px;
-    width: 100px;
-    height: auto;
-    margin-right: 10px;
-    left: 10px;
-}
-
-img.java_logo {
-    position: relative;
-    background-color: white;
-    border-radius: 15px;
-    width: 100px;
-    height: auto;
-    margin-right: 10px;
-    left: 10px;
-}
-
-img.php_logo {
-    position: relative;
-    background-color: white;
-    border-radius: 15px;
-    width: 100px;
-    height: auto;
-    margin-right: 10px;
-    left: 10px;
-}
-
-img.kotlin_logo {
+img.frameworks_logo{
     position: relative;
     background-color: white;
     border-radius: 15px;
