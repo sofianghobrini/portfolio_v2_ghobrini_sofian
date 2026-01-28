@@ -181,3 +181,20 @@ h2.certification{
     background-color: #fff;
     border-radius: 6px;
 }
+
+.skill_frameworks{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.skill_tools{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
