@@ -1,7 +1,7 @@
 img.profile-picture {
     position: absolute;
     left : 400px;
-    top : 350px;
+    top : 370px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -45,6 +45,16 @@ img.programming_languages_logo{
 }
 
 img.frameworks_logo{
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    left: 10px;
+}
+
+img.tools_logo{
     position: relative;
     background-color: white;
     border-radius: 15px;

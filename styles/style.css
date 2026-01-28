@@ -57,7 +57,7 @@ p.presentation{
 h.title-who{
     position: absolute;
     font-size: 40px;
-    top : 350px;
+    top : 410px;
     left: 45px;
     margin-bottom: 20px;
     font-family: Serif;
@@ -73,6 +73,10 @@ p.list{
 p1.p_vakna{
     position: absolute;
     left: 400px;
+}
+p1.p_bot{
+    position: absolute;
+    left: 360px;
 }
 
 .content{
