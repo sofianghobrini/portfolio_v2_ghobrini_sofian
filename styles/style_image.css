@@ -37,7 +37,6 @@ img.bot-discord-image {
 img.programming_languages_logo{
     position: relative;
     background-color: white;
-    border-radius: 15px;
     width: 100px;
     height: auto;
     margin-right: 10px;
@@ -47,7 +46,6 @@ img.programming_languages_logo{
 img.frameworks_logo{
     position: relative;
     background-color: white;
-    border-radius: 15px;
     width: 100px;
     height: auto;
     margin-right: 10px;
@@ -57,7 +55,15 @@ img.frameworks_logo{
 img.tools_logo{
     position: relative;
     background-color: white;
-    border-radius: 15px;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    left: 10px;
+}
+
+img.bdd_logo{
+    position: relative;
+    background-color: white;
     width: 100px;
     height: auto;
     margin-right: 10px;
