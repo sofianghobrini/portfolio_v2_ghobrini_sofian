@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/style_image.css">
     <link rel="stylesheet" href="./styles/style_section.css">
     <link rel="stylesheet" href="./styles/style_timeline.css">
+    <link rel="stylesheet" href="./styles/style_navbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -16,12 +17,14 @@
         <p class="title">Découvrez mes compétences, expériences et projets.</p>
     </header>
     <nav class="navbar">
-        <a href="#a-propos-moi">Qui suis je &nbsp;</a>
-        <a href="#diplomes">Diplômes &nbsp;</a>
-        <a href="#experiences">Expériences professionels &nbsp;</a> 
-        <a href="#competences">Compétences &nbsp;</a>
-        <a href="#projects">Projets &nbsp;</a>
-        <a href="mailto:sofiangho31000@outlook.fr">Me contacter &nbsp;</a>
+        <ul>
+            <li><a href="index.html">Qui suis je &nbsp;</a></li>
+            <li><a href="certification.html">Diplômes &nbsp;</a></li>
+            <li><a href="experience.html">Expériences professionels &nbsp;</a> </li>
+            <li><a href="competence.html">Compétences &nbsp;</a></li>
+            <li><a href="projet.html">Projets &nbsp;</a></li>
+            <li><a href="mailto:sofiangho31000@outlook.fr">Me contacter &nbsp;</a></li>
+        </ul>
     </nav>
     <section id="a-propos-moi" class="about-me">
         <h class="title-who">À propos de moi</h>
@@ -36,113 +39,6 @@
             <i class="fab fa-linkedin" ></i>
         </a>
     </section>
-    <section id="diplomes" class="diplomes">
-        <h1 class="diplome">Certifications et Diplômes</h1>
-        <div class="timeline">
-            <div class="container-timeline left">
-                <div class="content">
-                    <h2 class="certification">Bachelor en réalisation d'application conception et validation</h2>
-                    <p class="emplacement">Université Paul Sabatier, Toulouse- Rangeuil, 2024 - 2025</p>
-                </div>
-            </div>
-            <div class="container-timeline right">
-                <div class="content">
-                    <h2 class="certification">Baccalauréat +2 SNIR système numérique informatique et réseaux</h2>
-                    <p class="emplacement">Lycée Victor Hugo international, Colomiers, 2022 - 2024</p>
-                </div>
-            </div>
-            <div class="container-timeline left">
-                <div class="content">
-                    <h2 class="certification">Baccalauréat Système informatique et numérique</h2>
-                    <p class="emplacement">Lycée Charles de Gaulle, Muret, 2019-2022</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="experiences" class="experiences">
-        <h1 class="exp">Expériences Professionels</h1>
-        <div class="timeline">
-            <div class="container-timeline right">
-                <div class="content">
-                    <img src="photo/logo-one-group.webp" alt="one group" class="logo-one-group">
-                    <h2>Agent d'acceuil - One Group, Octobre - Decembre 2025</h2>
-                    <p class="list">Laissez passer les gens avec les billets pour les matchs de foots</p>
-                </div>
-            </div>
-            <div class="container-timeline left">
-                <div class="content">
-                    <img src="photo/logo_datakode.png" alt="datakode" class="logo-datakode">
-                    <h2>Stage BUT - Datakode - Auterive, Mars - Avril 2025</h2>
-                    <p class="list">Les travaux réalisés :</p>
-                    <ul>
-                        <li>Découverte strapi, astro js, vue js et nuxt js</li>
-                        <li>Réfonte de la page de réservation</li>
-                        <li>Creation de la page agenda</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="container-timeline right">
-                <div class="content">
-                    <h2>Stage BTS SNIR - Lycée Nelson Mendela - Saint-Benoît, Ile de la reunion, Juin - Juillet 2023</h2>
-                    <p class="list">Les travaux réalisés :</p>
-                    <ul>
-                        <li>Décourverte et Initialisation à fog project, wiki js</li>
-                        <li>Creation et application de GPO sur Windows server</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="competences" class="competences">
-        <h1>Compétences</h1>
-        <div class="skill_programming_languages">
-            <h2>Langages de programmation</h2>
-            <img src="photo/c++.png" alt="c_logo" class="programming_languages_logo">
-            <img src="photo/html.webp" alt="html_logo" class="programming_languages_logo">
-            <img src="photo/java.webp" alt="java_logo" class="programming_languages_logo">
-            <img src="photo/PHP-Logo.webp" alt="PHP-Logo" class="programming_languages_logo">
-            <img src="photo/Kotlin_logo.png" alt="Kotlin_logo" class="programming_languages_logo">
-        </div>
-        <div class="skill_frameworks">
-            <h2>Frameworks et bibliothèques</h2>
-            <img src="photo/vue_js_logo.png" alt="vue_js_logo" class="frameworks_logo">
-            <img src="photo/astro-logo-dark.png" alt="astro_logo" class="frameworks_logo">
-            <img src="photo/Nuxt_logo.png" alt="nuxt_logo" class="frameworks_logo">
-            <img src="photo/strapi_logo_2.svg" alt="strapi_logo" class="frameworks_logo">
-            <img src="photo/icons8-spring-boot-48.png" alt="spring_boot_logo" class="frameworks_logo">
-        </div>
-        <div class="skill_bdd">
-            <h2>Base de données</h2>
-            <img src="photo/icons8-mariadb-48.png" alt="mysql_logo" class="bdd_logo">
-            <img src="photo/icons8-mysql-48.png" alt="mongodb_logo" class="bdd_logo">
-        </div>
-        <div class="skill_tools">
-            <h2>Outils et plateformes</h2>
-            <img src="photo/android-studio.svg" alt="android_studio_logo" class="tools_logo">
-            <img src="photo/intellij-idea-icon-512x512.webp" alt="intellij_logo" class="tools_logo">
-            <img src="photo/github-logo-transparent-free-png.png" alt="github_logo" class="tools_logo">
-        </div>
-    </section>
-    <section id="projects" class="projects">
-        <h1>Projets</h1>
-        <div class="projet">
-            <h2>Portfolio v1</h2>
-            <p1>Premier portfolio réaliser durant mon année en BUT informatique</p>
-        </div>
-        <div class="projet">
-            <h2>Vakna</h2>
-            <img src="photo/projet_vakna.png" alt="vakna image" class="vakna-image">
-            <p1 class="p_vakna">Saé de premier semestre en BUT ce projet libre, on a décidé avec mon équipe de créer une application qui consiste à aider à la motivation du quoitidien en s'occupant d'un compagnon virtuel</p>
-        </div>
-        <div class="projet">
-            <h2>Surveillance de machine à bobiner</h2>
-            <p1>Projet de fin en deuxième année de SNIR l'objectif de ce projet consister à crée un système de surveillance de machine à bobiner pour prévenir en cas de surchauffe ou de problème de moteur</p>
-        </div>
-        <div class="projet">
-            <h2>Bot Discord</h2>
-            <img src="photo/bot_discord.png" alt="bot discord image" class="bot-discord-image">
-            <p1 class="p_bot">Mon tout premier projet realiser en java script avait été pour un serveur discord et aussi mon premier pas dans la programmation</p>
-        </div>
-    </section>
+
 </body>
 </html>
