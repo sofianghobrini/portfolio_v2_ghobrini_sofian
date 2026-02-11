@@ -1,4 +1,5 @@
 body{
+    margin: auto;
     background-image: url("../photo/css-pattern-gray-black.png");
 }
 
@@ -12,16 +13,6 @@ p.title{
     margin-bottom: 30px;
 }
 
-.navbar{
-    position: relative;
-    width: 2000px;
-    height: 100px;
-    background: #222;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 a{
     color: #fff;
