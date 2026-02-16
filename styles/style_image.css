@@ -23,15 +23,29 @@ img.logo-one-group {
 }
 
 img.vakna-image {
-    width: 300px;
+    position: relative;
+    width: 200px;
+    top: 15px;
     height: auto;
     margin-bottom: 10px;
+    left: 600px;
+}
+
+img.task-vakna-image {
+    position: relative;
+    width: 205px;
+    top: 15px;
+    height: auto;
+    margin-bottom: 10px;
+    left: 700px;
 }
 
 img.bot-discord-image {
+    position: relative;
     width: 300px;
     height: auto;
     margin-bottom: 10px;
+    left: 600px;
 }
 
 img.programming_languages_logo{
