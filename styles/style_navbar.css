@@ -63,3 +63,17 @@ nav a:nth-child(5):hover ~ span{
     width: 115px;
 }
 
+/* responsive navbar */
+
+@media (max-width: 768px) {
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar li { float: none; }
+}
+
+@media (max-width: 480px) {
+    .navbar a { padding: 10px; font-size: 18px; }
+}
+

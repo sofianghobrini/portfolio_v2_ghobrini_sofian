@@ -71,3 +71,34 @@
     position: absolute;
     left: -40px;
 }
+
+/* responsive timeline */
+@media (max-width: 1200px) {
+    .timeline { max-width: 90%; }
+}
+
+@media (max-width: 768px) {
+    .timeline::after {
+        left: 5%;
+    }
+    .container-timeline {
+        width: 100%;
+        padding: 20px 20px;
+    }
+    .container-timeline::after {
+        left: 15px;
+    }
+    .left, .right {
+        left: 0;
+    }
+    .left::before, .right::before {
+        left: 15px;
+        right: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .timeline::after { left: 3%; }
+    .container-timeline::after { left: 10px; }
+    .left::before, .right::before { left: 10px; }
+}

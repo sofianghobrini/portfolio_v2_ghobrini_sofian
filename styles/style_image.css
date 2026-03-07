@@ -83,3 +83,33 @@ img.bdd_logo{
     margin-right: 10px;
     left: 10px;
 }
+
+/* responsive images */
+
+@media (max-width: 1200px) {
+    img.profile-picture { left: 300px; top: 300px; width: 90px; height: 90px; }
+}
+
+@media (max-width: 768px) {
+    img.profile-picture {
+        position: relative;
+        left: auto;
+        top: auto;
+        margin: 20px auto;
+        display: block;
+        width: 80px;
+        height: 80px;
+    }
+    img.vakna-image,
+    img.task-vakna-image,
+    img.bot-discord-image {
+        left: auto;
+        margin: 0 auto 10px;
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    img.profile-picture { width: 70px; height: 70px; }
+    img.vakna-image, img.task-vakna-image, img.bot-discord-image { width: 100%; max-width: 200px; }
+}
