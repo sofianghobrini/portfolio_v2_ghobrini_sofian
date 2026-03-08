@@ -1,6 +1,11 @@
 body{
     margin: auto;
     background-image: url("../photo/jeremy-bishop-G9i_plbfDgk-unsplash.jpg");
+    background-color: rgba(255,255,255,0.4);
+     background: 
+        linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),
+        url("../photo/jeremy-bishop-G9i_plbfDgk-unsplash.jpg");
+    background-size: cover;
 }
 
 h1.title{
@@ -99,7 +104,8 @@ p1.p_bot{
 }
 
 .content{
-    background-color: #fff;
+    /* slightly see-through so the body image shows through */
+    background-color: rgba(255,255,255,0.8);
     padding: 20px;
     border-radius: 6px;
 }
@@ -116,7 +122,7 @@ h2.certification{
 }
 
 .projet{
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.8);
     padding: 20px;
     border-radius: 6px;
     margin-bottom: 20px;
@@ -126,7 +132,7 @@ h2.certification{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.8);
     border-radius: 6px;
 }
 
@@ -134,7 +140,7 @@ h2.certification{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.8);
     border-radius: 6px;
 }
 
@@ -142,7 +148,7 @@ h2.certification{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.8);
     border-radius: 6px;
 }
 
@@ -150,7 +156,7 @@ h2.certification{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.8);
     border-radius: 6px;
 }
 
